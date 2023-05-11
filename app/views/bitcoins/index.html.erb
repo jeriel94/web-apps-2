@@ -1,4 +1,9 @@
 <h1>How much Bitcoin do you own?</h1>
 
+<form action="/bitcoins">
+  <input type="text" name="amount" value= "<%= params["amount"] %>" >
+  <button>Submit</button>
+</form>
+
 <p>1 Bitcoin is valued at $<%= @usd_rate %> USD.</p>
 <p>Your Bitcoin is worth $<%= @usd_value %>.</p>
