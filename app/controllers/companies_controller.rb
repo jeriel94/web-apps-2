@@ -28,12 +28,14 @@ def create
 
 @company.save
   #   # redirect user
+  redirect_to "/companies"
 end
 
-  # def edit
+  #def edit
   #   # find a Company
+
   #   # render view with edit Company form
-  # end
+ # end
   
   # def update
   #   # find a Company
